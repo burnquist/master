@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sitemap - Sitemap Page | Design Company - monsterweb</title>
+  <title>Sitemap - Sitemap Page | monsterweb</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/style.css" type="text/css" media="all">
