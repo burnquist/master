@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Privacy policy - Privacy policy Page | Design Company - Free Website Template from Templatemonster.com</title>
+  <title>Privacy policy - Privacy policy Page | monsterweb</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/style.css" type="text/css" media="all">
