@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^bambang-priyatna.rhcloud.com
+RewriteRule (.*) http://www.bambang-priyatna.rhcloudcom/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ (index\.php|sources|css|images|js|\.txt) HTTP/
+RewriteRule ^index\.html$ http://www.bambang-priyatna.rhcloudcom/ [R=301,L]
