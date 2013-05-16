@@ -18,10 +18,10 @@
 <<<<<<< HEAD
 //$config['base_url']	= '';
 =======
-$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
+//$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
 >>>>>>> f09a466f0fd7e4ce3b33ded10c07bb6d34f79d8f
 =======
-$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
+//$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
 >>>>>>> f09a466f0fd7e4ce3b33ded10c07bb6d34f79d8f
 
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
