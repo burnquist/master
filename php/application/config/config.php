@@ -21,12 +21,12 @@
 $config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
 >>>>>>> f09a466f0fd7e4ce3b33ded10c07bb6d34f79d8f
 =======
-$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
+//$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
 >>>>>>> f09a466f0fd7e4ce3b33ded10c07bb6d34f79d8f
 
-$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-$config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
-$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+//$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
+//$config['base_url'] .= "://".$_SERVER['HTTP_HOST'];
+//$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
 /*
 |--------------------------------------------------------------------------
 | Index File
