@@ -29,8 +29,8 @@
     	<h1><a href="<?php echo base_url(); ?>site/index">Design Burnquist</a></h1>
       <nav>
         <ul>
-        	<li><a href="<?php echo base_url(); ?>site/index">Home</a></li>
-          <li><a href="<?php echo base_url(); ?>site/about" class="current">About</a></li>
+        	<li><a href="<?php echo site_url(); ?>site/index">Home</a></li>
+          <li><a href="<?php echo site_url(); ?>site/about" class="current">About</a></li>
           <li><a href="<?php echo base_url(); ?>site/privacy">Privacy</a></li>
           <li><a href="<?php echo base_url(); ?>site/gallery">Gallery</a></li>
           <li><a href="<?php echo base_url(); ?>site/contacts">Contact</a></li>
