@@ -39,9 +39,9 @@
     	<h1><a href="<?php echo base_url(); ?>site/index.php">Design Burnquist</a></h1>
       <nav>
         <ul>
-          <li><a href="http://bambang-priyatna.rhcloud.com<?php echo base_url(); ?>site/index.php" class="current">Home</a></li>
-          <li><a href="http://bambang-priyatna.rhcloud.com<?php echo base_url(); ?>site/about.php">About</a></li>
-          <li><a href="http://bambang-priyatna.rhcloud.com<?php echo base_url(); ?>site/privacy.php">Privacy</a></li>
+          <li><a href="/site/index.php" class="current">Home</a></li>
+          <li><a href="/site/about.php">About</a></li>
+          <li><a href="/site/privacy.php">Privacy</a></li>
           <li><a href="http://bambang-priyatna.rhcloud.com<?php echo base_url(); ?>site/gallery.php">Gallery</a></li>
           <li><a href="http://bambang-priyatna.rhcloud.com<?php echo base_url(); ?>site/contacts.php">Contact</a></li>
           <li><a href="http://bambang-priyatna.rhcloud.com<?php echo base_url(); ?>site/sitemap.php">Sitemap</a></li>
