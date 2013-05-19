@@ -16,7 +16,7 @@
 */
 
 //$config['base_url']	= '';
-$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
+$config['base_url']	= 'http://bambang-priyatna.rhcloud.com/index.php';
 
 //$config['base_url']	= 'http://bambang-priyatna.rhcloud.com';
 
