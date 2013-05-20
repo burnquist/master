@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = 'http://bambang-priyatna.rhcloud.com/phpmyadmin';
+$db['default']['username'] = 'admin94e413b';
+$db['default']['password'] = 'T-VfHLc6hx4W';
+$db['default']['database'] = 'bambang';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
