@@ -26,15 +26,15 @@
   <!-- header -->
   <header>
     <div class="container">
-    	<h1><a href="index.html">Design Burnquist</a></h1>
+    	     <h1><a href="<?php echo base_url(); ?>index.php/site/index.php">Design Burnquist</a></h1>
       <nav>
         <ul>
-        	<li><a href="<?php echo base_url(); ?>site/index">Home</a></li>
-          <li><a href="<?php echo base_url(); ?>site/about" class="current">About</a></li>
-          <li><a href="<?php echo base_url(); ?>site/privacy">Privacy</a></li>
-          <li><a href="<?php echo base_url(); ?>site/gallery">Gallery</a></li>
-          <li><a href="<?php echo base_url(); ?>site/contacts">Contact</a></li>
-          <li><a href="<?php echo base_url(); ?>site/sitemap">Sitemap</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/index" class="current">Home</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/about">About</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/privacy">Privacy</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/gallery">Gallery</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/contacts">Contact</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/sitemap">Sitemap</a></li>
         </ul>
       </nav>
     </div>
