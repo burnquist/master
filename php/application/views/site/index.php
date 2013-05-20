@@ -71,11 +71,11 @@
             <h2>Recent <span>News</span></h2>
             <!-- .news -->
             <ul class="news">
-            	<?php $this->load->view('site/v_news'); ?>
+            	
                 <li>
 		<figure><strong><?php echo date('d'); ?></strong><?php echo date('M'); ?></figure>
                 <h3><a href="#">Sed ut perspiciatis unde</a></h3>
-                Domnis iste natus error sit voluptam accusa doloremque <a href="#">...</a>
+                Lagi masih di uji coba <a href="#">...</a>
               </li>
               <li>
               	<figure><strong>09</strong>June</figure>
