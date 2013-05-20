@@ -9,7 +9,7 @@ class c_news extends CI_Controller {
         function get_news ($p=0){
             $jppage=1;
             $this->load->library('pagination');
-            $config['base_url']=base_url().'/c_news/get_rnews/';
+            $config['base_url']=base_url().'index.php/c_news/get_news/';
             $config['total_rows']=$this->m_news->getjrecord();
             $config['per_page']=$jppage;
             $this->pagination->initialize($config);
