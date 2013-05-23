@@ -72,6 +72,17 @@
             <h3>Miscellaneous info:</h3>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           </aside>
+          
+          <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com/index.php/site/contacts" data-send="true" data-width="450" data-show-faces="true"></div>
           <!-- content -->
           <section id="content">
             <article>
