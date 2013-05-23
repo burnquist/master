@@ -105,6 +105,15 @@
               This website template can be delivered in two packages - with PSD source files included and without them. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the template ZIP package to be delivered to.
             </article> 
           </section>
+          <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
         </div>
       </div>
     </div>
