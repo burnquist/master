@@ -3,6 +3,23 @@
 <head>
   <title>Home - Home Page | monsterweb</title>
   <meta charset="utf-8">
+  	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(-6.5897222,106.7913889),
+  zoom:8,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap")
+  ,mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
    <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/style.css" type="text/css" media="all">
   <script type="text/javascript" src="<?php echo base_url(); ?>sources/js/jquery-1.4.2.min.js" ></script>
@@ -68,32 +85,13 @@
         <div class="wrapper">
         	<!-- aside -->
           <aside>
-            <h2>Recent <span>News</span></h2>
-            <!-- .news -->
-            <ul class="news">
-            	
-                <li>
-		<figure><strong><?php echo date('d'); ?></strong><?php echo date('M'); ?></figure>
-                <h3><a href="#">Sed ut perspiciatis unde</a></h3>
-                Lagi masih di uji coba <a href="#">...</a>
-              </li>
-              <li>
-              	<figure><strong>09</strong>June</figure>
-                <h3><a href="#">Totam rem aperiam</a></h3>
-                Eaqueipsa quae abillo inventoretis et quasi architecto beatae <a href="#">...</a>
-              </li>
-              <li>
-              	<figure><strong>31</strong>May</figure>
-                <h3><a href="#">Inventore veritatis et quasi</a></h3>
-                Architecto beatae vitae dicta sunt explicabo <a href="#">...</a>
-              </li>
-              <li>
-              	<figure><strong>25</strong>May</figure>
-                <h3><a href="#">Nemo enim ipsam</a></h3>
-                Voluptatem quia voluptas sit asper natur aut odit aut fugit <a href="#">...</a>
-              </li>
-            </ul>
-            <!-- /.news -->
+            <h2>Welcome <span>to Jargon Site</span></h2>
+			
+			  <p>Jargon is:</p>
+			  <p>The free encyclopedia Pending changes shown on page being not Examined Jargon is a specific term used in the field of life (environment) specific. Jargon usually not understood by people from other areas of life. Suppose "computer jargon" means the terms specifically related to computers and only understood by people associated with the computer field.</p>
+			  <p> <a href=" " target=" http://id.wikipedia.org/wiki/Jargon" rel="nofollow">Indonesian From Wikipedia</a></p>
+			  <p>This website is optimized for 1024X768 screen resolution. It is also HTML5 &amp; CSS3 valid.</p>
+              <figure><a href="#"><img src="images/banner1.jpg" alt=""></a></figure>
           </aside>
            <div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -107,14 +105,12 @@
           <!-- content -->
           <section id="content">
             <article>
-            	<h2>Welcome to <span>to our site!</span></h2>
-              <p>This website template is optimized for 1024X768 screen resolution. It is also HTML5 &amp; CSS3 valid.</p>
-              <figure><a href="#"><img src="images/banner1.jpg" alt=""></a></figure>
-              <p>This website template has several pages: <a href="index.html">Home</a>, <a href="about.html">About us</a>, <a href="privacy.html">Privacy Policy</a>, <a href="gallery.html">Gallery</a>, <a href="contacts.html">Contact us</a> (note that contact us form – doesn’t work), <a href="sitemap">Site Map</a>.</p>
-              This website template can be delivered in two packages - with PSD source files included and without them. If you need PSD source files, please go to the template download page at TemplateMonster to leave the e-mail address that you want the template ZIP package to be delivered to.
-            </article> 
+            	<h2>Recent <span>Maps Site</span></h2>
+             <div id="googleMap" style="width:550px;height:300px;"></div>
+              </article> 
+			</br>
           </section>
-         
+       <div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
         </div>
       </div>
     </div>
