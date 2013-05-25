@@ -61,16 +61,11 @@ function fanbox_init(screen_name){document.getElementById('twitterfanbox').inner
           <div class="wrapper">
         	<!-- aside -->
           <aside>
-            <h2>Site <span>Map</span></h2>
-			
-			  <ul class="list1">
-        	<li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contacts.html">Contact us</a></li>
-          <li><a href="sitemap.html">Site Map</a></li>
-        </ul>
+            <h2>Followers <span>On Tweeter</span></h2>
+	<div id="twitterfanbox"></div><script
+type="text/javascript">fanbox_init("@burnquist_73");</script
+type="text"> 		
+	
               
             <!-- .news -->
 			
@@ -82,11 +77,16 @@ function fanbox_init(screen_name){document.getElementById('twitterfanbox').inner
           <!-- content -->
           <section id="content">
             <article>
-            	<h2>Follower   <span>On Tweeter</span></h2>
-                 
-  <div id="twitterfanbox"></div><script
-type="text/javascript">fanbox_init("@burnquist_73");</script
-type="text"> 
+            	<h2>Site   <span>Map</span></h2>
+                 		  <ul class="list1">
+           <li><a href="<?php echo base_url(); ?>index.php/site/index">Home</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/about">About us</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/privacy">Privacy Policy</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/gallery">Gallery</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/contacts">Contact us</a></li>
+          <li><a href="<?php echo base_url(); ?>index.php/site/sitemap">Site Map</a></li>
+        </ul>
+  
             </article> 
 			</br>
           </section>
