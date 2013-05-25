@@ -57,9 +57,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
   	<script type="text/javascript" src="js/html5.js"></script>
     <script type="text/javascript" src="js/IE9.js"></script>
   <![endif]--> 
-  <script type='text/javascript'>
-function fanbox_init(screen_name){document.getElementById('twitterfanbox').innerHTML='<iframe name="fbfanIFrame_0" frameborder="0" allowtransparency="true" src="http://s.moopz.com/connect.html?user='+screen_name+'" class="FB_SERVER_IFRAME" scrolling="no" style="width:245px; height:160px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; "></iframe>';}
-</script>
 
   
   
@@ -109,9 +106,7 @@ function fanbox_init(screen_name){document.getElementById('twitterfanbox').inner
 			  <p>This website is optimized for 1024X768 screen resolution. It is also HTML5 &amp; CSS3 valid.</p>
               <figure><a href="#"><img src="images/banner1.jpg" alt=""></a></figure>
           </aside>
-          <div id="twitterfanbox"></div><script
-type="text/javascript">fanbox_init("@burnquist_73");</script
-type="text>
+        
           <div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
         
                      <!-- content -->
