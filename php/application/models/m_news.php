@@ -12,7 +12,7 @@ class m_news extends CI_Model {
 	
 	
 	function get_news($p,$jppage) {
-	$sqlstr="SELECT id,tgl_news,email,komentar
+	$sqlstr="SELECT id,tgl_news,email,title,komentar
 			FROM news ORDER BY id limit $p,$jppage";
 	//$sqlstr.="ORDER BY id limit $p,$jppage";
 	$hslquery=$this->db->query($sqlstr);
