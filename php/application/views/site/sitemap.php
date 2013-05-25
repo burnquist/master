@@ -59,10 +59,12 @@ function fanbox_init(screen_name){document.getElementById('twitterfanbox').inner
     <div class="container">
       <div class="inside">
         <h2>Site <span>Map</span></h2>
-        <p>  
+       <aside>
+       <p>  
   <div id="twitterfanbox"></div><script
 type="text/javascript">fanbox_init("@burnquist_73");</script
 type="text> </p>
+</aside>
         <ul class="list1">
           <li><a href="<?php echo base_url(); ?>index.php/site/index" class="current">Home</a></li>
           <li><a href="<?php echo base_url(); ?>index.php/site/about">About</a></li>
