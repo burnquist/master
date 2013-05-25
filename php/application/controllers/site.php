@@ -2,6 +2,7 @@
 class site extends CI_Controller {
     public function __construct() {
         parent::__construct();
+        $this->load->model("m_news");
     }
     
     function index ()
@@ -9,9 +10,17 @@ class site extends CI_Controller {
         $this->load->view('site/index.php');
     }
         
-    function about ()
+    function about ($p=0)
     {
-        $this->load->view('site/about.php');
+            $jppage=10;
+            $this->load->library('pagination');
+            $config['base_url']=base_url().'/c_news/get_rnews/';
+            $config['total_rows']=$this->m_news->getjrecord();
+            $config['per_page']=$jppage;
+            $this->pagination->initialize($config);
+            $data['pagination']=$this->pagination->create_links();
+            $data['hslquery']=$this->m_news->get_news($p,$jppage);
+        $this->load->view('site/about.php',$data);
     }
     
     function contacts ()
