@@ -93,6 +93,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			  <p>This website is optimized for 1024X768 screen resolution. It is also HTML5 &amp; CSS3 valid.</p>
               <figure><a href="#"><img src="images/banner1.jpg" alt=""></a></figure>
           </aside>
+          <div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
+        
                      <!-- content -->
           <section id="content">
             <article>
@@ -101,8 +103,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
               </article> 
 			</br>
           </section>
-       <div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
-        </div>
+       </div>
       </div>
     </div>
   </div>
