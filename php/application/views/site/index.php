@@ -93,16 +93,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 			  <p>This website is optimized for 1024X768 screen resolution. It is also HTML5 &amp; CSS3 valid.</p>
               <figure><a href="#"><img src="images/banner1.jpg" alt=""></a></figure>
           </aside>
-           <div id="fb-root"></div>
-		<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
-          <!-- content -->
+                     <!-- content -->
           <section id="content">
             <article>
             	<h2>Recent <span>Maps Site</span></h2>
