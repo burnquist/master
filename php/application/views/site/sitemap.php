@@ -58,22 +58,41 @@ function fanbox_init(screen_name){document.getElementById('twitterfanbox').inner
   <div class="main-box">
     <div class="container">
       <div class="inside">
-        <h2>Site <span>Map</span></h2>
-       <aside>
-       <p>  
+          <div class="wrapper">
+        	<!-- aside -->
+          <aside>
+            <h2>Site <span>Map</span></h2>
+			
+			  <ul class="list1">
+        	<li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contacts.html">Contact us</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+              
+            <!-- .news -->
+			
+           <!-- /.news -->
+          </aside>
+		  
+
+
+          <!-- content -->
+          <section id="content">
+            <article>
+            	<h2>Follower   <span>On Tweeter</span></h2>
+                 
   <div id="twitterfanbox"></div><script
 type="text/javascript">fanbox_init("@burnquist_73");</script
-type="text> </p>
-</aside>
-        <ul class="list1">
-          <li><a href="<?php echo base_url(); ?>index.php/site/index" class="current">Home</a></li>
-          <li><a href="<?php echo base_url(); ?>index.php/site/about">About</a></li>
-          <li><a href="<?php echo base_url(); ?>index.php/site/privacy">Privacy</a></li>
-          <li><a href="<?php echo base_url(); ?>index.php/site/gallery">Gallery</a></li>
-          <li><a href="<?php echo base_url(); ?>index.php/site/contacts">Contact</a></li>
-          <li><a href="<?php echo base_url(); ?>index.php/site/sitemap">Sitemap</a></li>
-        </ul>
-        
+type="text"> 
+            </article> 
+			</br>
+          </section>
+		  
+		  <div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com" data-send="true" data-width="450" data-show-faces="true"></div>
+        </div>
       </div>
     </div>
   </div>
