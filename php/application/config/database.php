@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'https://bambang-priyatna.rhcloud.com';
-$db['default']['username'] = 'adminPujBjPn';
-$db['default']['password'] = 'm9RXer2V2gjj';
+$db['default']['hostname'] = '127.3.202.129';
+$db['default']['username'] = 'adminQH7nbIz';
+$db['default']['password'] = 'csstlDYTzRjA';
 $db['default']['database'] = 'bambang';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
