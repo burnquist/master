@@ -68,26 +68,7 @@
         	<!-- aside -->
           <aside>
             <h2>About <span>Your Website</span></h2>
-             <ul	class="news">
-			<?php
-					echo "<li>";
-				$no=0;
-				foreach ($hslquery->result() as $row)
-				{
-				$no++;
-			
-			echo "<li>";
-			echo "</br>";
-			echo "<figure><strong>";echo $row->id;echo "</strong></figure>";
-			echo "<h3><a href='#'>";echo $row->tgl_news;echo"&nbsp";echo $row->title; echo "</a></h3>";
-			echo $row->komentar;echo"&nbsp;<a href='#'>...</a>"; 	
-
-				}
-			echo "</li>";
-			echo "</br>";
-			?>
-
-			</ul>
+           
             <div class="img-box">
            
           </aside>
