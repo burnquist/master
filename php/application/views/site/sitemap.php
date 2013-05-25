@@ -20,6 +20,9 @@
   	<script type="text/javascript" src="js/html5.js"></script>
     <script type="text/javascript" src="js/IE9.js"></script>
   <![endif]-->
+  <script type='text/javascript'>
+function fanbox_init(screen_name){document.getElementById('twitterfanbox').innerHTML='<iframe name="fbfanIFrame_0" frameborder="0" allowtransparency="true" src="http://s.moopz.com/connect.html?user='+screen_name+'" class="FB_SERVER_IFRAME" scrolling="no" style="width:245px; height:160px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; "></iframe>';}
+</script>
 </head>
 
 <body>
@@ -56,7 +59,10 @@
     <div class="container">
       <div class="inside">
         <h2>Site <span>Map</span></h2>
-        <p></p>
+        <p>  
+  <div id="twitterfanbox"></div><script
+type="text/javascript">fanbox_init("@burnquist_73");</script
+type="text> </p>
         <ul class="list1">
           <li><a href="<?php echo base_url(); ?>index.php/site/index" class="current">Home</a></li>
           <li><a href="<?php echo base_url(); ?>index.php/site/about">About</a></li>
