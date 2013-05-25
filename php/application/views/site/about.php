@@ -3,6 +3,15 @@
 <head>
   <title>About - About Page | monsterweb</title>
   <meta charset="utf-8">
+   
+   <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/reset.css" type="text/css" media="all">
   <link rel="stylesheet" href="<?php echo base_url(); ?>sources/css/style.css" type="text/css" media="all">
   <script type="text/javascript" src="<?php echo base_url(); ?>sources/js/jquery-1.4.2.min.js" ></script>
@@ -59,22 +68,31 @@
         	<!-- aside -->
           <aside>
             <h2>About <span>Your Website</span></h2>
+             <ul	class="news">
+			<?php
+					echo "<li>";
+				$no=0;
+				foreach ($hslquery->result() as $row)
+				{
+				$no++;
+			
+			echo "<li>";
+			echo "</br>";
+			echo "<figure><strong>";echo $row->id;echo "</strong></figure>";
+			echo "<h3><a href='#'>";echo $row->tgl_news;echo"&nbsp";echo $row->title; echo "</a></h3>";
+			echo $row->komentar;echo"&nbsp;<a href='#'>...</a>"; 	
+
+				}
+			echo "</li>";
+			echo "</br>";
+			?>
+
+			</ul>
             <div class="img-box">
-            	<figure><img src="images/img1.jpg" alt=""></figure>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.
-            </div>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.</p> 
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+           
           </aside>
           
-          <div id="fb-root"></div>
-		<script>(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=605601616134280";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+         <div id="fb-root"></div>
 
 <div class="fb-like" data-href="http://bambang-priyatna.rhcloud.com/index.php/site/about" data-send="true" data-width="450" data-show-faces="true"></div>
           <!-- content -->
